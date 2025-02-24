@@ -2,7 +2,46 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
-
 body {
-  background-color: mistyrose;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6eedf;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Header h1 {
+  color: #160108;
+  font-size: 2.5em;
+}
+
+.Header img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.Contributions {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.Contributions h2 {
+  color: #110006;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  color: #777;
+  margin-top: 40px;
 }
